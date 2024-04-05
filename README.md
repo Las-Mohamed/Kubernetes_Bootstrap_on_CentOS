@@ -1,4 +1,4 @@
-# Bootstrap of Kubernetes Cluster on CentOS x Ansible
+# Bootstrap of Nativ Kubernetes Cluster on CentOS x Ansible
 
 The following code include all required playbooks to bootsrap a Kubernetes cluster of 1 master and 2 workers.
 (Send_output.tf is a bash script that extract required data from previous Terraform config to create an inventory.ini and a SSH Private Key)

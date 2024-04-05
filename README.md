@@ -6,5 +6,5 @@ The following code include all required playbooks to bootsrap a Kubernetes clust
 To run the the initialization of the K8S cluster, make sure :
 - your inventory.ini is correctly setup
 - you got the right SSH Private Key associated with your machines (master and workers)
-- run "ansible-playbook playbook.yml -i inventaire.ini"
+- run "ansible-playbook playbook.yml -i inventory.ini"
 

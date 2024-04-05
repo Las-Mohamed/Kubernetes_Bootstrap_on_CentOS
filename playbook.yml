@@ -1,0 +1,4 @@
+---
+- import_playbook: playbooks/setup_cluster.yml
+- import_playbook: playbooks/initialize_cluster.yml
+- import_playbook: playbooks/join_cluster.yml
